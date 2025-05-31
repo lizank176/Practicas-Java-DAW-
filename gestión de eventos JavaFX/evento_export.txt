@@ -1,0 +1,33 @@
+ID	Nombre	Descripcion	Lugar	Fecha_Inicio	Fecha_fin	Categoría
+2	Exposición de Arte Moderno	Exposición de artistas contemporáneos	Museo de Arte	2025-06-10	2025-06-20	Arte
+3	Maratón Internacional	Competencia de correr a nivel internacional	Parque Central	2025-07-15	2025-07-15	Deportes
+4	Congreso de Innovación Tecnológica	Evento de tecnología y startups	Centro de Convenciones	2025-08-05	2025-08-06	Tecnología
+5	Conferencia de Inteligencia Artificial	Conferencia sobre IA y sus aplicaciones	Universidad XYZ	2025-09-12	2025-09-12	Tecnología
+7	Festival de Cine Independiente	Proyección de cine independiente	Cine Centro	2025-11-01	2025-11-07	Cine
+8	Encuentro Literario	Reunión de escritores y lectores	Biblioteca Nacional	2025-12-15	2025-12-16	Literatura
+9	Festival Gastronómico	Muestra de cocina internacional	Plaza Mayor	2025-06-20	2025-06-22	Gastronomía
+10	Semana de la Moda	Desfile y presentación de nuevas colecciones	Centro de Moda	2025-09-20	2025-09-24	Moda
+11	Teatro Nacional	Espectáculo de teatro contemporáneo	Teatro Nacional	2025-05-10	2025-05-15	Turismo
+12	Congreso Educativo	Congreso internacional de métodos educativos	Auditorio de la Universidad	2025-06-01	2025-06-05	Teatro
+13	Conferencia de Energías Renovables	Explorando nuevas energías renovables	Centro de Convenciones	2025-07-01	2025-07-02	Conferencias
+14	Festival de Música Electrónica	Evento de música electrónica en vivo	Parque Central	2025-08-15	2025-08-15	Energía
+15	Expo Diseño Creativo	Exposición sobre diseño creativo y arquitectura	Centro de Exposiciones	2025-09-10	2025-09-12	Música Electrónica
+16	Cine de Autor	Festival de cine de autor	Cine Arte	2025-10-10	2025-10-15	Cine
+17	Arqueología Viva	Exposición sobre arqueología y descubrimientos	Museo Arqueológico	2025-11-01	2025-11-10	Diseño
+18	Filosofía Contemporánea	Conferencia sobre filosofía moderna	Universidad ABC	2025-12-01	2025-12-02	Fotografía
+19	Festival de la Ciencia	Muestra de investigaciones científicas	Auditorio de Ciencias	2025-01-05	2025-01-10	Ciencia
+20	Bienestar y Salud	Conferencias sobre bienestar personal	Centro de Bienestar	2025-02-15	2025-02-18	Arqueología
+21	Diseño y Moda	Presentación de nuevas colecciones de moda	Centro de Diseño	2025-03-01	2025-03-05	Filosofía
+22	Festival Gastronómico Internacional	Evento de comida gourmet de todo el mundo	Plaza Mayor	2025-04-10	2025-04-12	Gastronomía
+23	Bienestar Mental	Encuentro sobre salud mental y psicología	Centro de Psicología	2025-05-20	2025-05-22	Arqueología
+24	Festival Internacional de Cine	Muestra de cine de varios países	Cine El Paraíso	2025-06-05	2025-06-12	Cine
+25	Revolución Digital	Evento sobre las últimas tecnologías digitales	Auditorio Tecnológico	2025-07-05	2025-07-06	Tecnología
+26	Encuentro de Fotografía	Exposición de fotografía de artistas internacionales	Museo de Arte	2025-08-10	2025-08-15	Música Electrónica
+27	Arte y Cultura	Muestra de arte contemporáneo	Centro Cultural	2025-09-01	2025-09-05	Arte
+28	Festival de Danza	Presentación de danzas internacionales	Teatro Nacional	2025-10-01	2025-10-05	Turismo
+29	Programación en Vivo	Talleres de programación y desarrollo de software	Centro de Innovación	2025-11-01	2025-11-03	Tecnología
+30	Concierto Clásico	Concierto de música clásica en vivo	Auditorio Principal	2025-12-10	2025-12-10	Música
+31	Torneo de Videojuegos	Competencia de videojuegos en línea	Centro de Gaming	2025-06-10	2025-06-12	Educación
+32	Festivales Internacionales de Cine	Muestra de cine independiente internacional	Cine Mundo	2025-05-10	2025-05-15	Cine
+33	Exposición de Tecnología Futurista	Exposición sobre avances tecnológicos	Centro Tecnológico	2025-04-10	2025-04-12	Tecnología
+34	Encuentro de Empresarios	Evento de networking y negocios	Centro de Eventos	2025-06-25	2025-06-26	Medioambiente

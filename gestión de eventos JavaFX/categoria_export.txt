@@ -1,0 +1,53 @@
+ID	Nombre	Descripción
+1	Música	Eventos relacionados con la música	
+2	Arte	Eventos culturales y artísticos	
+3	Deportes	Competiciones deportivas y recreativas	
+4	Tecnología	Eventos sobre innovación tecnológica	
+5	Ciencia	Conferencias científicas y académicas	
+6	Cine	Festivales de cine y cineastas	
+7	Literatura	Eventos de literatura y autores	
+8	Gastronomía	Eventos relacionados con la comida y la cocina	
+9	Moda	Desfiles y eventos de moda	
+10	Turismo	Eventos relacionados con el turismo y viajes	
+11	Teatro	Obras y espectáculos teatrales	
+12	Conferencias	Conferencias sobre temas de interés general	
+13	Energía	Eventos sobre energías renovables y sustentabilidad	
+14	Música Electrónica	Eventos relacionados con la música electrónica	
+15	Diseño	Eventos sobre diseño gráfico y de producto	
+16	Fotografía	Eventos sobre fotografía y artes visuales	
+17	Arqueología	Exposiciones arqueológicas y descubrimientos	
+18	Filosofía	Eventos de discusión filosófica y reflexión	
+19	Educación	Congresos sobre métodos educativos	
+20	Medioambiente	Eventos enfocados en la conservación ambiental	
+21	Comedia	Eventos y espectáculos de comedia	
+22	Futuro	Eventos sobre el futuro de la humanidad	
+23	Gestión Empresarial	Eventos sobre administración y negocios	
+24	Salud	Conferencias sobre salud y bienestar	
+25	Literatura Infantil	Eventos literarios para niños	
+26	Ballet	Espectáculos de ballet y danza clásica	
+27	Innovación Social	Proyectos que transforman la sociedad	
+28	Negocios Internacionales	Eventos sobre comercio internacional	
+29	Programación	Cursos y talleres de programación	
+30	Blockchain	Eventos sobre criptomonedas y blockchain	
+31	Marketing	Eventos sobre marketing digital y tradicional	
+32	Gaming	Competiciones y eventos de videojuegos	
+33	Cultura Popular	Eventos sobre cultura pop y entretenimiento	
+34	Bienestar	Eventos relacionados con la salud mental y física	
+35	Diseño de Moda	Eventos de diseño y tendencias en la moda	
+36	Comida Gourmet	Exposición sobre comida gourmet y de alta cocina	
+37	Ingeniería	Congresos y exposiciones sobre ingeniería	
+38	Desarrollo Sostenible	Eventos enfocados en la sostenibilidad	
+39	Educación Ambiental	Cursos y conferencias sobre medioambiente	
+40	Negocios Locales	Eventos sobre negocios y emprendimiento local	
+41	Viajes	Ferias de viajes y turismo	
+42	Cine Experimental	Eventos y festivales de cine experimental	
+43	Cultura Digital	Eventos sobre el impacto de la tecnología	
+44	Fotografía Digital	Exposiciones sobre fotografía digital	
+45	Agricultura	Eventos y ferias sobre agricultura y tecnología	
+46	Cine Documental	Festivales de cine documental	
+47	Automóviles	Eventos relacionados con el mundo automotriz	
+48	Ciencia y Tecnología	Eventos sobre avances científicos y tecnológicos	
+49	Educación Superior	Congresos para estudiantes y académicos	
+50	Mujeres en la Ciencia	Eventos y conferencias sobre mujeres en la ciencia	
+51	Bienestar Social	Eventos sobre bienestar y trabajo social	
+52	Arte Digital	Exposiciones y talleres sobre arte digital	
