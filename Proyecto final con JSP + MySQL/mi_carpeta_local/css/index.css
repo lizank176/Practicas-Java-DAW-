@@ -1,0 +1,279 @@
+/* ========== VARIABLES ========= */
+:root {
+    --color-primario: #6a0dad;
+    --color-secundario: #a678d1;
+    --color-fondo: #f4f1fa;
+    --color-texto: #1c1c1e;
+    --color-blanco: #ffffff;
+    --color-hover: #8e44ad;
+}
+
+/* ========== RESETEO ========= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: var(--color-primario);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* ========== NAVBAR ========= */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--color-blanco);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links li a {
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: var(--color-primario);
+}
+
+.burger {
+    display: none;
+}
+
+/* ========== HERO ========= */
+.hero {
+    background: linear-gradient(rgba(106, 13, 173, 0.5), rgba(106, 13, 173, 0.5)), url('../img/banner.jpg') no-repeat center/cover;
+    color: var(--color-blanco);
+    padding: 6rem 2rem;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--color-hover);
+}
+
+/* ========== SECCIÓN HABITACIONES ========= */
+.habitaciones {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: var(--color-blanco);
+}
+
+.habitaciones-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.habitacion-card {
+    background-color: var(--color-fondo);
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+    padding: 1rem;
+    transition: transform 0.3s;
+}
+
+.habitacion-card:hover {
+    transform: translateY(-5px);
+}
+
+.habitacion-card img {
+    border-radius: 16px;
+}
+
+.btn-secondary {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: var(--color-secundario);
+    color: var(--color-blanco);
+    padding: 0.6rem 1.5rem;
+    border-radius: 20px;
+    transition: background 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: var(--color-hover);
+}
+
+/* ========== SECCIÓN SERVICIOS ========= */
+.servicios {
+    padding: 4rem 2rem;
+    background-color: var(--color-fondo);
+    text-align: center;
+}
+
+.servicios-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.servicio-card {
+    background-color: var(--color-blanco);
+    border-radius: 16px;
+    padding: 2rem;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s;
+}
+
+.servicio-card i {
+    font-size: 2rem;
+    color: var(--color-primario);
+    margin-bottom: 1rem;
+}
+
+.servicio-card:hover {
+    transform: translateY(-5px);
+}
+
+/* ========== FOOTER ========= */
+.footer {
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    padding: 2rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.footer-section h3 {
+    margin-bottom: 1rem;
+}
+
+.footer-section p, .footer-section a {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.social-icons a {
+    color: var(--color-blanco);
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: var(--color-secundario);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+/* ========== ESTRELLAS  ========= */
+.reservar-wrapper {
+  position: relative;
+}
+
+.reservar-btn {
+  position: relative;
+  padding: 12px 35px;
+  background: #fec195;
+  font-size: 17px;
+  font-weight: 500;
+  color: #181818;
+  border: 3px solid #fec195;
+  border-radius: 8px;
+  box-shadow: 0 0 0 #fec1958c;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.reservar-btn:hover {
+  background: transparent;
+  color: #fec195;
+  box-shadow: 0 0 25px #fec1958c;
+}
+
+.reservar-btn .fil0 {
+  fill: #fffdef;
+}
+
+/* Estrella 1 */
+.reservar-btn .star-1 {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 25px;
+  filter: drop-shadow(0 0 0 #fffdef);
+  z-index: -5;
+  transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
+}
+
+.reservar-btn:hover .star-1 {
+  top: -80%;
+  left: -30%;
+  filter: drop-shadow(0 0 10px #fffdef);
+  z-index: 2;
+}
+.star-1 svg {
+    width: 24px;
+    height: 24px;
+    fill: gold;
+    margin-left: 8px;
+}

@@ -1,0 +1,174 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f0fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #b477e0;
+    padding: 10px 30px;
+    color: white;
+}
+
+.navbar .logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links li a.active, .nav-links li a:hover {
+    text-decoration: underline;
+}
+
+.search-bar {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #6a0dad;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reservas-wrapper {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.tabla-principal {
+    flex: 3;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(106, 13, 173, 0.2);
+}
+
+.tabla-principal table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-principal th, .tabla-principal td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabla-principal th {
+    background-color: #e5d4f4;
+    color: #4a0066;
+}
+
+.estado {
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.estado.confirmada {
+    background-color: #28a745;
+}
+
+.estado.pendiente {
+    background-color: #ffc107;
+    color: black;
+}
+
+.estado.cancelada {
+    background-color: #dc3545;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button.editar { color: #17a2b8; }
+button.eliminar { color: #dc3545; }
+
+
+.resumen-estados {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(106, 13, 173, 0.2);
+}
+
+.resumen-estados table {
+    width: 100%;
+    text-align: left;
+}
+
+.resumen-estados th, .resumen-estados td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+td form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-image: linear-gradient(to top, #e588ff 0%, #330867 100%);
+  border: solid 3px transparent;
+  background-clip: padding-box;
+  box-shadow: 0px 0px 0px 3px #ffffff00;
+  color: white;
+  min-height: 40px;
+  padding: 0 15px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all .3s ease;
+  font-size: 12px;
+}
+
+td form button:hover {
+  box-shadow: 0px 0px 0px 3px #30a1b8;
+}
+
+td form button:active {
+  transform: scale(.95);
+  transition: all 100ms ease;
+}
+
+td form button svg {
+  width: 16px;
+  height: 16px;
+}
