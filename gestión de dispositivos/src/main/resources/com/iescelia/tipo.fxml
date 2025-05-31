@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="298.0" prefWidth="555.0" style="-fx-background-color: #c4d3dd;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.iescelia.PrimaryController">
+   <children>
+      <VBox alignment="CENTER" layoutX="2.4" prefHeight="307.0" prefWidth="577.0" AnchorPane.bottomAnchor="-9.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="-24.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane prefHeight="318.0" prefWidth="610.0">
+               <children>
+                  <Button alignment="CENTER" contentDisplay="RIGHT" layoutX="256.0" layoutY="56.0" mnemonicParsing="false" onAction="#switchToComputer" prefHeight="40.0" prefWidth="139.0" style="-fx-background-color: #6693bc;" text="Ordenador" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button contentDisplay="RIGHT" layoutX="256.0" layoutY="115.0" mnemonicParsing="false" onAction="#switchToImpresora" prefHeight="40.0" prefWidth="139.0" style="-fx-background-color: #6693bc;" text="Impresora" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                 </Button>
+                  <Button contentDisplay="CENTER" layoutX="255.0" layoutY="181.0" mnemonicParsing="false" onAction="#switchToDevice" prefHeight="40.0" prefWidth="139.0" style="-fx-background-color: #6693bc;" text="Dispositivo" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                </Button>
+                  
+                        <Label alignment="BOTTOM_CENTER" contentDisplay="CENTER" layoutX="174.0" layoutY="14.0" prefHeight="30.0" prefWidth="306.0" text="Elige tu dispositivo">
+                     <font>
+                        <Font name="Liberation Mono" size="23.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

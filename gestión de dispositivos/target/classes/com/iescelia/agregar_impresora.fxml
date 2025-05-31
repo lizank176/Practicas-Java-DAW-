@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="402.0" prefWidth="575.0" style="-fx-background-color: #c4d3dd;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.iescelia.AgregarImpresoraController">
+   <children>
+      <Button blendMode="DARKEN" layoutX="317.0" layoutY="352.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="99.0" style="-fx-background-color: gray;" text="Cancelar">
+         <font>
+            <Font name="Carlito Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button blendMode="DARKEN" layoutX="436.0" layoutY="353.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="99.0" style="-fx-background-color: #6693bc;" text="Guradar" onAction="#guardarCambios">
+         <font>
+            <Font name="Carlito Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="25.0" layoutY="28.0" prefHeight="34.0" prefWidth="279.0" text="Impresora">
+         <font>
+            <Font name="Corbel Light" size="27.0" />
+         </font>
+      </Label>
+      <TextField layoutX="165.0" layoutY="95.0" prefHeight="26.0" prefWidth="279.0" fx:id="marcaField" />
+      <TextField layoutX="165.0" layoutY="150.0" prefHeight="26.0" prefWidth="279.0" fx:id="modeloField"/>
+      <Label layoutX="30.0" layoutY="98.0" prefHeight="18.0" prefWidth="80.0" text="Marca" >
+         <font>
+            <Font name="SansSerif Regular" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="154.0" prefHeight="18.0" prefWidth="80.0" text="Modelo"  >
+         <font>
+            <Font name="SansSerif Regular" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="204.0" prefHeight="18.0" prefWidth="80.0" text="Estado" fx:id="estado">
+         <font>
+            <Font name="SansSerif Regular" size="16.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="166.0" layoutY="205.0" mnemonicParsing="false" text="Funciona" fx:id="estado_funciona"/>
+      <RadioButton layoutX="285.0" layoutY="205.0" mnemonicParsing="false" text="No funciona" fx:id="estado_noFunciona" />
+      <Label layoutX="29.0" layoutY="278.0" prefHeight="20.0" prefWidth="87.0" text="Color ">
+         <font>
+            <Font name="SansSerif Regular" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="321.0" prefHeight="20.0" prefWidth="87.0" text="Scanner">
+         <font>
+            <Font name="SansSerif Regular" size="16.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="color_si" layoutX="165.0" layoutY="278.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="51.0" text="Sí" />
+      <RadioButton fx:id="color_no" layoutX="284.0" layoutY="278.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="51.0" text="No" />
+      <RadioButton fx:id="scanner_si" layoutX="164.0" layoutY="319.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="51.0" text="Sí" />
+      <RadioButton fx:id="scanner_no" layoutX="285.0" layoutY="317.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="51.0" text="No" />
+      <Label layoutX="30.0" layoutY="243.0" prefHeight="20.0" prefWidth="87.0" text="Tipo">
+         <font>
+            <Font name="SansSerif Regular" size="16.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="laser" layoutX="165.0" layoutY="243.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="62.0" text="Láser" />
+      <RadioButton fx:id="inyeccion" layoutX="285.0" layoutY="243.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="121.0" text="Inyección de tinta " />
+      <RadioButton fx:id="otro" layoutX="417.0" layoutY="243.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="121.0" text="Otro" />
+   </children>
+</AnchorPane>
